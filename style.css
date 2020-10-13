@@ -1,0 +1,47 @@
+.bigger-font {
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+#container {
+    width: 600px;
+    height: 600px;
+    background-color:rgb(144, 200, 238);
+    display: inline-block;
+    position: relative;
+}
+
+.info-container {
+    position: relative;
+    top: -618px;
+    left: 590px;
+    width: 600px;
+    height: 600px;
+}
+
+.square {
+    background-color:brown;
+    position: absolute;
+}
+
+.rectangle {
+	width: 200px;
+	height: 100px;
+    background:teal;
+    position: absolute;
+}
+
+.circle {
+    background:burlywood;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.triangle {
+	width: 0;
+    height: 0;
+    border-color: transparent;
+    border-bottom-color:saddlebrown;
+    border-style: solid;
+    position: absolute;
+}
